@@ -6,7 +6,7 @@ import './index.css'
 let app = createApp(App)
 
 
-app.provide("code", import.meta.env.CODE)
+app.provide("code", process.env.env_variable.CODE)
 
 
 
