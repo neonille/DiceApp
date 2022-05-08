@@ -22,5 +22,6 @@ onMounted(() => {
     let code = inject("code")
     console.log(code)
     console.log(process.env.CODE)
+    console.log(import.meta.env.DEV);
 })
 </script>
