@@ -21,5 +21,6 @@ import { inject, nextTick, onMounted } from 'vue';
 onMounted(() => {
     let code = inject("code")
     console.log(code)
+    console.log(process.env.CODE)
 })
 </script>
