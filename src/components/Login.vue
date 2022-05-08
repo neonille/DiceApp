@@ -23,5 +23,9 @@ onMounted(() => {
     console.log(code)
     console.log(process.env.CODE)
     console.log(import.meta.env.DEV);
+    console.log(import.meta.env.PROD);
+    console.log(import.meta.env.VITE_CODE);
+
+
 })
 </script>
